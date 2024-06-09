@@ -1,12 +1,25 @@
 - 👋 Hi, I’m @Lilpresh-hub
 - 👀 I’m interested in ...***Getting more ideas in creating a multi-device almighty WhatsApp bot***
-- 🌱 I’m currently learning ...***Cyber Security Engineering***
-- 💞️ I’m looking to collaborate on ...___Whatsapp bot___
-- 📫 How to reach me ...   https://www.WhatsApp.com/2346038308662
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...***Saggitarius👿***
+- 🌱 package main
 
-<!---
-Lilpresh-hub/Lilpresh-hub is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+import "fmt"
+
+type Person struct {
+  name string
+  username string
+  age int
+  hobbies []string
+  job string
+}
+
+func main() {
+  var me = new(Person)
+  
+  me.name     = "Lilpresh-hub"
+  me.username = "Lilpresh-hub"
+  me.age      = "20"
+  me.job      = "AI developer | Web developer"
+  me.hobbies  = []string{"code", "anime", "music","gaming"}
+  
+  fmt.Println(me)
+}
